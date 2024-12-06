@@ -19,3 +19,16 @@
 - **바이트코드 실행**: `.class` 파일을 읽고, 실행 엔진을 통해 명령어를 기계어로 변환.
 - **메모리 관리**: Heap, Stack 등의 메모리 영역을 관리하고, Garbage Collector를 통해 메모리 해제 처리.
 - **프로그램 보안 관리**: Class Loader와 Bytecode Verifier를 통해 프로그램의 무결성 및 보안성을 확인.
+
+## 3. JDK와 JRE
+1. **JDK (Java Development Kit)**: 개발 도구를 포함한 Java 개발 패키지.
+   - 주요 구성: javac, java, javadoc 등.
+2. **JRE (Java Runtime Environment)**: Java 실행 환경.
+   - 주요 구성: JVM, 라이브러리, 실행 환경.
+
+### 3-1. JDK와 JRE의 차이
+| 기능           | JDK              | JRE          |
+|----------------|------------------|--------------|
+| 실행 환경 포함 | O                | O            |
+| 컴파일러 포함 | O                | X            |
+
