@@ -54,3 +54,8 @@
 - **equals**가 true인 두 객체는 동일한 **hashCode** 값을 가져야 함.
 - hashCode와 equals를 함께 재정의해야 객체를 올바르게 비교 가능.
 - HashMap, HashSet 등 컬렉션에서 활용.
+
+## 7. 직렬화와 transient 키워드
+- 직렬화: 객체를 저장하거나 네트워크로 전송하기 위해 바이트 스트림으로 변환.
+  - `Serializable` 인터페이스 사용.
+- `transient`: 직렬화 시 제외할 필드에 사용.
