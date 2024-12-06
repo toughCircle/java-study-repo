@@ -1,2 +1,2 @@
 # java-study-repo
-design patterns
+java study
