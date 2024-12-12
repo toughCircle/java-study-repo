@@ -22,3 +22,13 @@
 - `catch` 블록에서 발생한 예외를 잡아 처리
 - `finally` 블록은 예외 발생 여부와 상관없이 항상 실행되는 블록, 주로 자원 해제를 위해 활용.
 
+## 3. Checked 예외와 Unchecked 예외의 차이점
+### Checked 예외
+- 컴파일 시점에 반드시 예외 처리가 요구되는 예외.
+- 예) IOException, SQLException
+- 이러한 예외는 메서드 선언부에 throws로 명시하거나 try-catch로 처리해야 함.
+
+### Unchecked 예외
+- RuntimeException 계열 예외이며, 컴파일러가 예외 처리를 강제하지 않음.
+- 예) NullPointException, ArithmeticException
+- 일반적으로 프로그래머의 실수로 발생하는 예외를 의미, 필요에 따라 적절한 방어 코드를 추가.
