@@ -32,3 +32,7 @@
 - RuntimeException 계열 예외이며, 컴파일러가 예외 처리를 강제하지 않음.
 - 예) NullPointException, ArithmeticException
 - 일반적으로 프로그래머의 실수로 발생하는 예외를 의미, 필요에 따라 적절한 방어 코드를 추가.
+
+## 4. 사용자 정의 예외 생성 및 활용
+- 사용자 정의 예외는 Exception 혹은 RuntimeException을 상속받아 만들 수 있음.
+- 특정 상황에 맞는 의미 있는 예외를 던져 가독성과 유지보수성을 높일 수 있음.
