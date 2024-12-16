@@ -73,3 +73,14 @@
 - 단 하나의 추상 메서드를 가지는 인터페이스.
 - 예: `java.lang.Runnable`(추상 메서드: `run`), `java.util.Comparator`(추상 메서드: `compare`).
 - 함수형 인터페이스를 대상으로 람다 표현식을 사용하면, 익명 클래스를 대체할 수 있음.
+
+## 5. 스트림(Stream) API
+
+### 스트림 API
+- 자바 8부터 지원하는 데이터 처리용 API.
+- 컬렉션, 배열 등의 데이터를 한 번에 처리하기 위한 간결하고 효율적인 방법을 제공.
+- 내부 반복(Internal Iteration)을 사용하므로 코드 가독성이 뛰어나고, 병렬 처리(Parallel Stream)도 간단하게 적용 가능.
+
+### 스트림의 중간 연산과 최종 연산
+- 중간 연산(Intermediate Operation): 스트림을 반환하는 연산. 여러 개 체인 형태로 연결해 사용 가능. 예: filter, map, sorted, distinct, limit, skip 등.
+- 최종 연산(Terminal Operation): 스트림을 소모(consume)하며 결과를 반환하는 연산. 예: collect, reduce, forEach, count 등.
